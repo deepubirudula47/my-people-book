@@ -29,6 +29,9 @@ function App() {
           <PersonCard key={index} {...person} />
         ))}
       </div>
+      <footer>
+        <p stlye={styles.footerContainer}>© 2023 My People Book. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
@@ -73,6 +76,12 @@ const styles = {
   titleBook: {
     textAlign: 'center',
     margin: '0 auto'
+  },
+  footerContainer: {
+    textAlign: 'center',
+    marginTop: '2rem',
+    fontSize: '0.8rem',
+    color: '#555'
   }
 };
 

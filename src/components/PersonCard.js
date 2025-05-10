@@ -23,7 +23,7 @@ const styles = {
     textAlign: 'center',
     boxShadow: '4px 4px 20px rgba(0,0,0,0.1)',
     backgroundColor: '#f9f9f9',
-    transition: 'transform 0.2s',
+    transition: 'transform 0.3s, box-shadow 0.3s',
     cursor: 'pointer',
   },
   image: {
@@ -32,11 +32,13 @@ const styles = {
     borderRadius: '50%',
     objectFit: 'cover',
     marginBottom: '1rem',
+    border: '3px solid #ddd',
   },
   name: {
     fontSize: '1.5rem',
     color: '#333',
     margin: '0.5rem 0',
+    fontWeight: 'bold',
   },
   detail: {
     fontSize: '1rem',
@@ -48,6 +50,10 @@ const styles = {
     color: '#777',
     marginTop: '1rem',
     fontStyle: 'italic',
+  },
+  cardHover: {
+    transform: 'scale(1.05)',
+    boxShadow: '6px 6px 25px rgba(0,0,0,0.2)',
   },
 };
 

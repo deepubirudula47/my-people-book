@@ -127,6 +127,22 @@ const people = [
       bio: "Art enthusiast",
       image: "https://randomuser.me/api/portraits/women/16.jpg",
       contact: "simran@example.com"
+    },
+    {
+      name: "Dainu",
+      age: 20,
+      relation: "Brother",
+      bio: "--",
+      image: "https://randomuser.me/api/portraits/women/17.jpg",
+      contact: "dainu@example.com"
+    },
+    {
+      name: "Dainu",
+      age: 20,
+      relation: "Brother",
+      bio: "--",
+      image: "https://randomuser.me/api/portraits/women/18.jpg",
+      contact: "dainu@example.com"
     }
   ];
   
